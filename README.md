@@ -56,11 +56,12 @@ This will generate `security_design.md` containing the security analysis.
 
 ### 1️⃣ Install Dependencies
 ```sh
-pip install -r requirements.txt
+build your docker image
 ```
 
 ### 2️⃣ Run the Streamlit App
 ```sh
+pip install streamlit
 streamlit run app.py
 ```
 
