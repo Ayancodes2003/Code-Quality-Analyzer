@@ -101,5 +101,5 @@ This project is licensed under the MIT License.
 ---
 
 ## Contact 📬
-For questions or issues, feel free to reach out via GitHub Issues or email at `your-email@example.com`.
+For questions or issues, feel free to reach out via GitHub Issues or email at `ayanbiswa.dutta2022@vitstudent.ac.in`, `akashdutta3113@gmail.com`.
 
