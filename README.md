@@ -1,1 +1,1 @@
-# Trail-Blazer-HackVita
+# Trail-Blazers-HackVita
