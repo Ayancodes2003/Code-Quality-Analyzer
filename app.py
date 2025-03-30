@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 import time
-import base64
+#import base64
 
 # Page Configuration
 st.set_page_config(page_title="AI Security Analyzer", page_icon="🚀", layout="centered")
