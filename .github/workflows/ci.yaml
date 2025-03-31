@@ -29,7 +29,7 @@ jobs:
         run: poetry run ruff check --output-format=github .
 
       - name: Run MyPy
-        run: poetry run mypy ai_security_analyzer
+        run: poetry run mypy ai_code_quality
 
       - name: Test with pytest
         run: poetry run pytest -m "not integration"
