@@ -1,12 +1,12 @@
-# AI Security Analyzer
+# Code Quality Analysis
 
-AI Security Analyzer is an AI-powered tool designed to analyze security vulnerabilities in codebases using Google's Gemini model. The tool can be run locally using Docker or directly via Streamlit.
+This project is made as a part of HackVita 2025 of JEC. We solved the **problem statement 9 (Code Quality Porblem)** Code Quality Analyser is an AI-powered tool designed to analyze you code quality. It can annalyse codefiles in your codebases and automatically generate comprehensive documentation for your projects, including security design, threat modeling, attack surface analysis, and more. The tool can be run locally using Docker or directly via Streamlit.
 
 ## Features
-- AI-powered security analysis using Gemini
-- Docker-based execution for consistency
+- AI-powered analysis that supports multi llm and works with OpenAI, OpenRouter, Anthropic, and Google models
+- Docker-based execution for consistency and containerisation
 - Streamlit UI for an interactive experience
-- Generates security reports in Markdown format
+- Generates security reports in Markdown format for better readeability.
 
 ---
 
@@ -20,6 +20,7 @@ cd YOUR-REPO
 
 ### 2️⃣ Set Up API Keys
 Before running the tool, set up the required API keys:
+*note that you can change this command based on the API key you are using*
 ```sh
 export GOOGLE_API_KEY=your-google-api-key
 export GEMINI_API_KEY=your-gemini-api-key
@@ -36,7 +37,7 @@ $env:GEMINI_API_KEY="your-gemini-api-key"
 
 ### 1️⃣ Build the Docker Image
 ```sh
-docker build -t ai-security-analyzer .
+docker build -t code quality checker .
 ```
 
 ### 2️⃣ Run the Analysis
@@ -73,7 +74,7 @@ Once started, open the displayed **local URL** (e.g., `http://localhost:8501`) t
 ## Project Structure
 ```
 📦 AI-Security-Analyzer
-├── 📂 ai_security_analyzer      # Core analyzer logic
+├── 📂 ai_code_quality          # Core analyzer logic
 ├── 📂 data                     # Example reports and datasets
 ├── 📂 scripts                  # Helper scripts
 ├── 📂 uploads                  # Uploaded files for analysis
