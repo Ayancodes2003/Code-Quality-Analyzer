@@ -3,7 +3,7 @@ import logging
 from langchain_text_splitters import CharacterTextSplitter
 from tiktoken import Encoding
 
-from ai_security_analyzer.documents import DocumentFilter, DocumentProcessor
+from ai_code_quality.documents import DocumentFilter, DocumentProcessor
 
 logger = logging.getLogger(__name__)
 

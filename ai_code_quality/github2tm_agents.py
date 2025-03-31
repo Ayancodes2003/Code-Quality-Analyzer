@@ -6,13 +6,13 @@ from langchain_core.messages import HumanMessage
 from langgraph.graph import StateGraph
 from pydantic import BaseModel, Field
 
-from ai_security_analyzer.llms import LLM
-from ai_security_analyzer.utils import get_response_content, get_total_tokens, format_filename, clean_markdown
+from ai_code_quality.llms import LLM
+from ai_code_quality.utils import get_response_content, get_total_tokens, format_filename, clean_markdown
 from operator import add
-from ai_security_analyzer.checkpointing import CheckpointManager
+from ai_code_quality.checkpointing import CheckpointManager
 
 
-from ai_security_analyzer.github2_deep_base_agents import (
+from ai_code_quality.github2_deep_base_agents import (
     BaseGithubDeepAnalysisAgent,
     BaseDeepAnalysisState,
 )

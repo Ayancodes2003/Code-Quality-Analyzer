@@ -13,7 +13,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.language_models.fake_chat_models import ParrotFakeChatModel
 from langchain_core.messages import BaseMessage, SystemMessage, HumanMessage
 
-from ai_security_analyzer.constants import (
+from ai_code_quality.constants import (
     OPENAI_API_KEY,
     OPENROUTER_API_KEY,
     OPENROUTER_API_BASE,
@@ -22,7 +22,7 @@ from ai_security_analyzer.constants import (
     DEFAULT_CONTEXT_WINDOW,
     DEFAULT_CHUNK_SIZE,
 )
-from ai_security_analyzer.config import AppConfig
+from ai_code_quality.config import AppConfig
 
 logger = logging.getLogger(__name__)
 

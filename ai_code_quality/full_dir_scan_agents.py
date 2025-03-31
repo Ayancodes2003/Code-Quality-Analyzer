@@ -11,13 +11,13 @@ from langgraph.graph import START, StateGraph, END
 from langgraph.graph.state import CompiledStateGraph
 from tiktoken import Encoding
 
-from ai_security_analyzer.base_agent import BaseAgent
-from ai_security_analyzer.documents import DocumentFilter, DocumentProcessor
-from ai_security_analyzer.llms import LLM
-from ai_security_analyzer.loaders import RepoDirectoryLoader
-from ai_security_analyzer.utils import get_response_content, get_total_tokens, clean_markdown
-from ai_security_analyzer.checkpointing import CheckpointManager
-from ai_security_analyzer.components import DocumentProcessingMixin
+from ai_code_quality.base_agent import BaseAgent
+from ai_code_quality.documents import DocumentFilter, DocumentProcessor
+from ai_code_quality.llms import LLM
+from ai_code_quality.loaders import RepoDirectoryLoader
+from ai_code_quality.utils import get_response_content, get_total_tokens, clean_markdown
+from ai_code_quality.checkpointing import CheckpointManager
+from ai_code_quality.components import DocumentProcessingMixin
 
 
 logger = logging.getLogger(__name__)

@@ -5,13 +5,13 @@ from langgraph.graph import START, END, StateGraph
 from langgraph.graph.state import CompiledStateGraph
 from tiktoken import Encoding
 
-from ai_security_analyzer.full_dir_scan_agents import (
+from ai_code_quality.full_dir_scan_agents import (
     FullDirScanAgent,
     AgentState,
 )
-from ai_security_analyzer.documents import DocumentFilter, DocumentProcessor
-from ai_security_analyzer.llms import LLM
-from ai_security_analyzer.checkpointing import CheckpointManager
+from ai_code_quality.documents import DocumentFilter, DocumentProcessor
+from ai_code_quality.llms import LLM
+from ai_code_quality.checkpointing import CheckpointManager
 from typing import List
 
 logger = logging.getLogger(__name__)

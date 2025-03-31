@@ -3,12 +3,12 @@ import logging
 import sys
 import os
 
-from ai_security_analyzer.agent_builder import AgentBuilder
-from ai_security_analyzer.config import AppConfig
-from ai_security_analyzer.graphs import GraphExecutorFactory
-from ai_security_analyzer.llms import LLMProvider
-from ai_security_analyzer.checkpointing import CheckpointManager
-from ai_security_analyzer.prompts.prompt_manager import PromptManager
+from ai_code_quality.agent_builder import AgentBuilder
+from ai_code_quality.config import AppConfig
+from ai_code_quality.graphs import GraphExecutorFactory
+from ai_code_quality.llms import LLMProvider
+from ai_code_quality.checkpointing import CheckpointManager
+from ai_code_quality.prompts.prompt_manager import PromptManager
 
 logger = logging.getLogger(__name__)
 

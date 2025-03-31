@@ -11,14 +11,14 @@ from langgraph.graph import START, StateGraph, END
 from langgraph.graph.state import CompiledStateGraph
 from tiktoken import Encoding
 
-from ai_security_analyzer.full_dir_scan_agents import FullDirScanAgent
-from ai_security_analyzer.base_agent import BaseAgent
-from ai_security_analyzer.documents import DocumentFilter, DocumentProcessor
-from ai_security_analyzer.llms import LLM
-from ai_security_analyzer.utils import get_response_content, get_total_tokens, clean_markdown
-from ai_security_analyzer.checkpointing import CheckpointManager
-from ai_security_analyzer.components import DocumentProcessingMixin, VulnerabilitiesWorkflowMixin
-from ai_security_analyzer.prompts.prompt_manager import THREAT_ACTOR_DESCRIPTION
+from ai_code_quality.full_dir_scan_agents import FullDirScanAgent
+from ai_code_quality.base_agent import BaseAgent
+from ai_code_quality.documents import DocumentFilter, DocumentProcessor
+from ai_code_quality.llms import LLM
+from ai_code_quality.utils import get_response_content, get_total_tokens, clean_markdown
+from ai_code_quality.checkpointing import CheckpointManager
+from ai_code_quality.components import DocumentProcessingMixin, VulnerabilitiesWorkflowMixin
+from ai_code_quality.prompts.prompt_manager import THREAT_ACTOR_DESCRIPTION
 import operator
 
 logger = logging.getLogger(__name__)

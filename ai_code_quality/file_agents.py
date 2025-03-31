@@ -12,12 +12,12 @@ from langgraph.graph.state import CompiledStateGraph
 from tiktoken import Encoding
 from typing_extensions import TypedDict
 
-from ai_security_analyzer.base_agent import BaseAgent
-from ai_security_analyzer.components import DocumentProcessingMixin
-from ai_security_analyzer.documents import DocumentFilter, DocumentProcessor
-from ai_security_analyzer.llms import LLM
-from ai_security_analyzer.utils import clean_markdown, get_response_content, get_total_tokens
-from ai_security_analyzer.checkpointing import CheckpointManager
+from ai_code_quality.base_agent import BaseAgent
+from ai_code_quality.components import DocumentProcessingMixin
+from ai_code_quality.documents import DocumentFilter, DocumentProcessor
+from ai_code_quality.llms import LLM
+from ai_code_quality.utils import clean_markdown, get_response_content, get_total_tokens
+from ai_code_quality.checkpointing import CheckpointManager
 
 
 logger = logging.getLogger(__name__)

@@ -4,9 +4,9 @@ from enum import Enum
 
 from langgraph.graph.state import CompiledStateGraph
 
-from ai_security_analyzer.config import AppConfig
-from ai_security_analyzer.checkpointing import CheckpointManager
-from ai_security_analyzer.llms import LLM
+from ai_code_quality.config import AppConfig
+from ai_code_quality.checkpointing import CheckpointManager
+from ai_code_quality.llms import LLM
 
 logger = logging.getLogger(__name__)
 

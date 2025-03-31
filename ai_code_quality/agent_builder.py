@@ -4,24 +4,24 @@ from typing import Type
 import tiktoken
 from langchain_text_splitters import CharacterTextSplitter
 
-from ai_security_analyzer.base_agent import AgentType, BaseAgent
-from ai_security_analyzer.components import DocumentProcessingMixin, DeepAnalysisMixin, VulnerabilitiesWorkflowMixin
-from ai_security_analyzer.config import AppConfig
-from ai_security_analyzer.documents import DocumentFilter, DocumentProcessor
-from ai_security_analyzer.dry_run import DryRunFullDirScanAgent
-from ai_security_analyzer.file_agents import FileAgent
-from ai_security_analyzer.full_dir_scan_agents import FullDirScanAgent
-from ai_security_analyzer.github2_agents import GithubAgent2
-from ai_security_analyzer.github2as_agents import GithubAgent2As
-from ai_security_analyzer.github2at_agents import GithubAgent2At
-from ai_security_analyzer.github2sd_agents import GithubAgent2Sd
-from ai_security_analyzer.github2tm_agents import GithubAgent2Tm
-from ai_security_analyzer.github2ms_agents import GithubAgent2Ms
-from ai_security_analyzer.llms import LLMProvider
-from ai_security_analyzer.checkpointing import CheckpointManager
-from ai_security_analyzer.prompts.prompt_manager import PromptManager
-from ai_security_analyzer.vulnerabilities_workflow1 import VulnerabilitiesWorkflow1
-from ai_security_analyzer.vulnerabilities_workflow2 import VulnerabilitiesWorkflow2
+from ai_code_quality.base_agent import AgentType, BaseAgent
+from ai_code_quality.components import DocumentProcessingMixin, DeepAnalysisMixin, VulnerabilitiesWorkflowMixin
+from ai_code_quality.config import AppConfig
+from ai_code_quality.documents import DocumentFilter, DocumentProcessor
+from ai_code_quality.dry_run import DryRunFullDirScanAgent
+from ai_code_quality.file_agents import FileAgent
+from ai_code_quality.full_dir_scan_agents import FullDirScanAgent
+from ai_code_quality.github2_agents import GithubAgent2
+from ai_code_quality.github2as_agents import GithubAgent2As
+from ai_code_quality.github2at_agents import GithubAgent2At
+from ai_code_quality.github2sd_agents import GithubAgent2Sd
+from ai_code_quality.github2tm_agents import GithubAgent2Tm
+from ai_code_quality.github2ms_agents import GithubAgent2Ms
+from ai_code_quality.llms import LLMProvider
+from ai_code_quality.checkpointing import CheckpointManager
+from ai_code_quality.prompts.prompt_manager import PromptManager
+from ai_code_quality.vulnerabilities_workflow1 import VulnerabilitiesWorkflow1
+from ai_code_quality.vulnerabilities_workflow2 import VulnerabilitiesWorkflow2
 
 logger = logging.getLogger(__name__)
 

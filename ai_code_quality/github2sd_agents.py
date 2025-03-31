@@ -5,13 +5,13 @@ from typing import Any, List
 from langchain_core.messages import HumanMessage
 from langgraph.graph import StateGraph
 
-from ai_security_analyzer.llms import LLM
-from ai_security_analyzer.utils import get_response_content, get_total_tokens
-from ai_security_analyzer.checkpointing import CheckpointManager
+from ai_code_quality.llms import LLM
+from ai_code_quality.utils import get_response_content, get_total_tokens
+from ai_code_quality.checkpointing import CheckpointManager
 from pydantic import BaseModel
 
 
-from ai_security_analyzer.github2_deep_base_agents import (
+from ai_code_quality.github2_deep_base_agents import (
     BaseGithubDeepAnalysisAgent,
     BaseDeepAnalysisState,
 )

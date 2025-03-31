@@ -3,7 +3,7 @@ from langgraph.checkpoint.sqlite import SqliteSaver
 from langgraph.checkpoint.base import BaseCheckpointSaver
 from pathlib import Path
 import logging
-from ai_security_analyzer.config import AppConfig
+from ai_code_quality.config import AppConfig
 from langchain_core.runnables.config import RunnableConfig
 
 logger = logging.getLogger(__name__)

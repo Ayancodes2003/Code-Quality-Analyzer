@@ -3,8 +3,8 @@ import os
 from abc import ABC, abstractmethod
 from typing import Any, Final, List, Type
 
-from ai_security_analyzer.base_agent import AgentType
-from ai_security_analyzer.config import AppConfig
+from ai_code_quality.base_agent import AgentType
+from ai_code_quality.config import AppConfig
 from langchain_core.documents import Document
 from langchain_core.runnables.config import RunnableConfig
 from langgraph.graph.state import CompiledStateGraph

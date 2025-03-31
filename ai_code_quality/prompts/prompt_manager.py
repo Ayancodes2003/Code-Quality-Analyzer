@@ -2,7 +2,7 @@ from pathlib import Path
 import yaml
 from typing import List
 
-from ai_security_analyzer.config import AppConfig
+from ai_code_quality.config import AppConfig
 
 THREAT_ACTOR_DESCRIPTION = {
     "none": "",
