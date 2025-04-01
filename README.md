@@ -1,6 +1,6 @@
 # Code Quality Analysis
 
-This project is made as a part of HackVita 2025 of JEC. We solved the **problem statement 9 (Code Quality Porblem)** Code Quality Analyser is an AI-powered tool designed to analyze you code quality. It can annalyse codefiles in your codebases and automatically generate comprehensive documentation for your projects, including security design, threat modeling, attack surface analysis, and more. The tool can be run locally using Docker or directly via Streamlit.
+Code Quality Analyser is an AI-powered tool designed to analyze you code quality. It can annalyse codefiles in your codebases and automatically generate comprehensive documentation for your projects, including security design, threat modeling, attack surface analysis, and more. The tool can be run locally using Docker or directly via Streamlit.
 
 ## Features
 - AI-powered analysis that supports multi llm and works with OpenAI, OpenRouter, Anthropic, and Google models
